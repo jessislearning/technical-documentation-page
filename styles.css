@@ -1,0 +1,32 @@
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: large;
+    font-weight: 800;
+}
+
+.nav-header{
+    padding:10px;
+    text-align: center;
+}
+
+nav {
+    position:fixed;
+    top:0;
+    left:0;
+    max-width: 300px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+main {
+    position: relative;
+    margin-left: 300px;
+}
