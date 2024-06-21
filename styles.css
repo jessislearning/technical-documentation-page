@@ -69,6 +69,7 @@ a:hover {
         padding-bottom: 0;
         height:fit-content;    
     }
+    
     .nav-links {
         display: flexbox;
         flex-direction: row;
@@ -76,6 +77,7 @@ a:hover {
         gap: 5px;
         background-color: white
     }
+    
     main {
         overflow-y: hidden;
         margin-left:10px;
