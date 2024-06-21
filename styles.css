@@ -3,7 +3,7 @@ html {
 }
 
 header {
-    font-size: large;
+    font-size: x-large;
     font-weight: 800;
 }
 
@@ -16,17 +16,69 @@ nav {
     position:fixed;
     top:0;
     left:0;
-    max-width: 300px;
+    max-width: 250px;
+    height:100%;
+    overflow: auto;
+    margin: 2px;
+    padding: 0;
+    border-right: solid;
+    border-width: 1px;
 }
 
 .nav-links {
     display: flex;
     flex-direction: column;
+    gap: 10px;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 main {
     position: relative;
-    margin-left: 300px;
+    margin-left: 280px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+code {
+    background-color:lightblue;
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkblue;
+    padding:5px;
+}
+
+a:hover {
+    background-color: lightblue;
+}
+
+@media (max-width: 600px) {
+    
+    nav {
+        position: relative;
+        max-width: 100%;
+        border-right: 0;
+        border-bottom:solid;
+        padding-bottom: 0;
+        height:fit-content;    
+    }
+    .nav-links {
+        display: flexbox;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+        background-color: white
+    }
+    main {
+        overflow-y: hidden;
+        margin-left:10px;
+        margin-right:10px;
+    }
 }
