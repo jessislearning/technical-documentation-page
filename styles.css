@@ -59,6 +59,10 @@ a:hover {
     background-color: lightblue;
 }
 
+ li {
+    padding-bottom: 1rem;
+ }
+
 @media (max-width: 600px) {
     
     nav {
