@@ -6,7 +6,7 @@ This is the third project for the Responsive Web Design Certification. More info
 For this project, we have to build our own index.html and styles.css file which includes the use of media query.
 
 <h2>You can view the page here:</h2>  
-https://htmlpreview.github.io/?https://github.com/jessislearning/technical-documentation-page/blob/main/index.html
+https://jessislearning.github.io/technical-documentation-page/
 
 <h2>Or view screenshots:</h2>
 
