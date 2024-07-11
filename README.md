@@ -11,7 +11,8 @@ https://jessislearning.github.io/technical-documentation-page/
 <h2>Or view screenshots:</h2>
 
 Case 1: When the screen is >600px, the page looks like this:<br><br>
-<img width="768" alt="image" src="https://github.com/jessislearning/technical-documentation-page/assets/161026755/22c4e269-5610-4b73-937b-99a8fb53a12a">
+<img width="1195" alt="image" src="https://github.com/jessislearning/technical-documentation-page/assets/161026755/b78046fb-34bd-4f5b-b298-5ed71ca9f84d">
+
 <br>
 
 Case 2: screen is <600px, the page looks like this:<br><br>
